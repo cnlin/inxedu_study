@@ -1,0 +1,16 @@
+注意：运行项目前必须在开发工具中安装 lombok
+
+Lombok 是一种 Java实用工具，可用来帮助开发人员消除 Java 的冗长，具体看lombok 的官方网址：http://projectlombok.org/ 。
+
+lombok 安装：
+    1. 将 lombok.jar 复制到 myeclipse.ini / eclipse.ini 所在的文件夹目录下
+    2. 打开 eclipse.ini / myeclipse.ini，在最后面插入以下两行并保存：
+	-Xbootclasspath/a:lombok.jar
+	-javaagent:lombok.jar
+    3. 重启 eclipse / myeclipse
+
+
+lombok 在 idea 中安装：
+    1，添加插件Files->settings->plugins
+    2，点击按钮【Install JetBrains plugin...】
+    3. 在新弹出的窗口，搜索lombok，在搜索到的lombok上右键安装就可以了
