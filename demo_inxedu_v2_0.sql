@@ -720,6 +720,8 @@ CREATE TABLE `sys_user` (
   PRIMARY KEY (`USER_ID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT COMMENT='系统用户表';
 
-/*Data for the table `sys_user` */
+/*Data for the table `sys_user` 
+ * 用户名和密码一样
+ * */
 
 insert  into `sys_user`(`USER_ID`,`LOGIN_NAME`,`LOGIN_PWD`,`USER_NAME`,`STATUS`,`LAST_LOGIN_TIME`,`LAST_LOGIN_IP`,`CREATE_TIME`,`EMAIL`,`TEL`,`ROLE_ID`) values (1,'admin','21232f297a57a5a743894a0e4a801fc3','inxedu教育',0,'2016-03-21 15:57:04','192.168.1.114','2015-03-17 01:45:46','inxedu@inxedu.com','88888888888',1),(2,'inxedu','edc3d9c3765ac000f05e2ced93756603','因酷销售',0,'2016-02-02 11:20:08','192.168.1.85','2015-03-17 01:45:46','inxedu2@inxedu.com','16888888888',4);
