@@ -286,7 +286,7 @@
 													<a href="${ctx }/front/couinfo/${interfixCourse.courseId}" class="c-333 fsize16">${interfixCourse.courseName}</a>
 												</section>
 												<section class="hLh20 mt5 txtOf">
-													<span class="c-999">讲师： <c:if test="${interfixCourse.teacherList!=null && interfixCourse.teacherList.size()>0}">
+													<span class="c-999">讲师： <c:if test="${interfixCourse.teacherList!=null}">
 															<c:forEach items="${interfixCourse.teacherList}" var="teacher">
 																	${teacher.name}&nbsp;&nbsp;
 																</c:forEach>

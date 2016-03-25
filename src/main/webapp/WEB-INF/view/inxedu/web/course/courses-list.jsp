@@ -33,7 +33,7 @@
 							</aside>
 						</dd>
 					</dl>
-					<c:if test="${sonSubjectList!=null&&sonSubjectList.size()>0 }">
+					<c:if test="${sonSubjectList!=null}">
                       	<dl>
 							<dt>
 								<span class="c-999 fsize14"></span>
